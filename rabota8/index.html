@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1 class="texttop">Форма обработки связи</h1>
+      <form class="row g-3">
+        <div class="row g-3">
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Имя"
+              aria-label="Имя"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Фамилия"
+              aria-label="Фамилия"
+            />
+          </div>
+          <div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label"> </label>
+              <input
+                type="text"
+                class="form-control"
+                id="formGroupExampleInput"
+                placeholder="№ заказа"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="inputAddress2" class="form-label"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Адрес эл. почты"
+          />
+        </div>
+        <div class="form-floating">
+          <textarea
+            class="form-control"
+            placeholder="Leave a comment here"
+            id="floatingTextarea2"
+            style="height: 100px"
+          ></textarea>
+          <label for="floatingTextarea2">Ведите сообщение</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+    </div>
+    <script src="/bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
